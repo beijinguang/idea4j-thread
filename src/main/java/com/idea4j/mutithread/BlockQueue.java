@@ -26,12 +26,12 @@ public class BlockQueue {
     public static void main(String[] args) {
         new BlockQueue();
 
-        ReentrantLock reentrantLock = new ReentrantLock();
-        reentrantLock.lock();
-        try {
-
-        }finally {
-            reentrantLock.unlock();
-        }
+//        ReentrantLock reentrantLock = new ReentrantLock();
+//        reentrantLock.lock();
+//        try {
+//
+//        }finally {
+//            reentrantLock.unlock();
+//        }
     }
 }
